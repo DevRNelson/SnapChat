@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4rem;
+    height: 100%;
+    
+}
+
+a { 
+    text-decoration: none;
+     color: black;
+}
+
+
+#header {
+
+}
+
+.yellowtopnav {
+    background-color: #fffc00;
+    min-width:1200px;
+    word-spacing: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+ 
+.yellowtopnav a {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4rem;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.whitetopnav a { 
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4rem;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    
+}
+
+.whitetopnav {
+    background-color: white;
+    min-width:1200px;
+    word-spacing: 5px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+#heroimage {
+    background-image: url(../IMAGES/img-header.jpg);
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    padding-top: 200px;
+    font-size: xx-large;
+    color: white;
+}
+
+#heroimage button {
+    display: inline-block;
+    padding: 15px;
+    background-color: #fffc00;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border:5px #fffc00;
+    border-radius: 100px;
+    margin-top: 1rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+#whoweare {
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+
+#brandshead {
+    text-align: center;    
+    background-color: #f9f9f9;
+    margin-bottom: 40px;
+}
+
+#brandsgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+
+
+#descriptiongrid {
+    display: grid;
+    grid-template-columns: repeat 1fr, 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    align-content: center;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+
+
+#descriptiongrid img {
+    float: right;
+    height: 300px;
+    border-radius: 15px;
+}
+
+#swap {
+    float: left;
+    margin-left: 50px;
+}
+
+
+#jointeamsnap {
+    background-color: #fffc00;
+    height: 668px;
+    text-align: center;
+    padding-top: 300px;
+    font-size: xx-large;
+    color: black;
+}
+
+#jointeamsnap button {
+    display: inline-block;
+    padding: 15px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border:5px white;
+    border-radius: 100px;
+    margin-top: 1rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+
+footer {
+    background-color: white;
+    height: 50px;
+    padding-top: 15px;
+    margin-left: 100px;
+    word-spacing: 5px;
+}
