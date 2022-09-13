@@ -1,60 +1,54 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.4rem;
     height: 100%;
-    
 }
 
-a { 
+a {
     text-decoration: none;
-     color: black;
+    color: black;
 }
 
-
-#header {
-
-}
+#header {}
 
 .yellowtopnav {
     background-color: #fffc00;
-    min-width:1200px;
+    min-width: 1200px;
     word-spacing: 30px;
     padding-bottom: 10px;
     padding-top: 10px;
     margin-bottom: 10px;
 }
- 
+
 .yellowtopnav a {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.4rem;
     color: black;
     font-weight: bold;
-    
 }
 
-.whitetopnav a { 
+.whitetopnav a {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.4rem;
     color: black;
     font-weight: bold;
     padding: 10px;
-    
 }
 
 .whitetopnav {
     background-color: white;
-    min-width:1200px;
+    min-width: 1200px;
     word-spacing: 5px;
     padding-bottom: 20px;
     padding-top: 20px;
 }
-
 
 #heroimage {
     background-image: url(../IMAGES/img-header.jpg);
@@ -76,7 +70,7 @@ a {
     background-color: #fffc00;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    border:5px #fffc00;
+    border: 5px #fffc00;
     border-radius: 100px;
     margin-top: 1rem;
     font-size: 0.75rem;
@@ -91,9 +85,8 @@ a {
     padding: 50px;
 }
 
-
 #brandshead {
-    text-align: center;    
+    text-align: center;
     background-color: #f9f9f9;
     margin-bottom: 40px;
 }
@@ -104,8 +97,6 @@ a {
     background-color: #f9f9f9;
     text-align: center;
 }
-
-
 
 #descriptiongrid {
     display: grid;
@@ -118,13 +109,11 @@ a {
     padding: 5vh;
 }
 
-
 .brandbox1 img {
     float: left;
     height: 300px;
     border-radius: 4px;
 }
-
 
 .brandbox2 img {
     float: right;
@@ -133,7 +122,8 @@ a {
     padding-left: 50px;
 }
 
-.brandbox2 h2, p {
+.brandbox2 h2,
+p {
     margin-left: 50px;
 }
 
@@ -143,16 +133,21 @@ a {
     border-radius: 4px;
 }
 
-
-.brandbox1,.brandbox2,.brandbox3 h2 {
+.brandbox1,
+.brandbox2,
+.brandbox3 h2 {
     font-size: 1rem;
 }
 
-.brandbox1 p, h2 {
+.brandbox1 p,
+h2 {
     padding: 50px;
 }
 
-
+#OFFICES {
+    text-align: center;
+    padding-bottom: 30px;
+}
 
 #jointeamsnap {
     background-color: #fffc00;
@@ -169,7 +164,7 @@ a {
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    border:5px white;
+    border: 5px white;
     border-radius: 100px;
     margin-top: 1rem;
     font-size: 0.75rem;
@@ -177,7 +172,6 @@ a {
     cursor: pointer;
     text-transform: uppercase;
 }
-
 
 footer {
     background-color: white;
